@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+         table {
+            box-shadow: 10px 10px 5px 0px rgba(232,188,188,0.75);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(232,188,188,0.75);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(232,188,188,0.75);
+        }
+        table thead th { 
+                background-color: rosybrown;
+                color: whitesmoke
+        }
+        tfoot td {
+            background-color: rgb(202, 111, 46);
+        }
+        table tbody tr:nth-child(even) {
+            background-color:none
+                }
+        table tbody tr:hover td {
+            background-color: #ca60f0
+        }
+    /* Centralizar o conteúdo das células td */
+        table tbody td {
+         text-align: center;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            box-sizing: border-box;
+            background-color: #edefee;
+        }
+        header {
+            background-color: #e34bb5;
+            color: #fff;
+            padding: 8px;
+            text-align: center;
+            width: "#";;
+            height: "#";
+            
+        }
+        header img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse a largura do cabeçalho */
+            height: auto; /* Mantém a proporção da imagem ao redimensionar */
+        }
+
+        header {
+            background-color: #ec74c8;
+            color: #fff;
+            padding: 1px;
+            text-align: center;
+        }
+        h2 { font-family: cursive ; color: #be13bc
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        nav {
+            width: 20%;
+            background-color: #ca60f0;
+            color: #fff;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+        }
+
+        main {
+            flex: 1;
+            padding: 50px;
+            margin-right: 200;
+            
+        }
+
+        footer {
+            background-color: #ec74c8;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            bottom: 0;
+        }
+
+        .styled-text {
+            font-family: 'Trebuchet Ms', serif;
+            font-size: 18px;
+            color: #050000;
+        }
+
+        .video-container {
+            text-align: center;
+            
+        }
+
+        /* Estilos para melhorar acessibilidade e usabilidade */
+        a {
+            color: #2b08f3;
+            text-decoration: none;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #f507ae;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="horarioatendimento.png" alt="Logotipo no topo da página trás a imagem de um cachorro branco e a frase 'Nossos horários de atendimento.">
+</header>
+
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="about.html">Sobre nós</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="Horario.html">Horário</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="agendamento.html">Agendamento</a></li>
+            <li><a href="aniversariopet.html">Aniversário Pet</a></li>
+            <li><a href="animaisexoticos.html">Atendimento de animais exóticos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Nosso horário de atendimento:</h2>
+            <table border="1" style="width: 400px; height: 200px;">
+                 <tr>
+                    <td>Segunda a sexta </td>
+                    <td>Sábado</td>
+                 </tr>
+                <tr>
+                    <td>08:00 às 18:00</td>
+                    <td>08:00 às 14:00</td>
+                </tr>
+            </table> 
+            <p> Fora do horário comercial os atendimentos são reservados aos clientes em <strong>HOSPEDAGEM</strong>!</p> 
+            <p>Clique no banner e garanta <strong> 10% de desconto</strong> no primeiro atendimento para banho e tosa!</p>
+
+            <div class="video-container">            
+                <figure>
+                    <a href="agendamento.html">
+                        <img src="banner.gif" alt="Banner no centro da tela apresenta um cachorro tomando banho de mangueira no quintal e do lado direito dele a frase: clique e garante 10% de desconto em banho e tosa." width="500" height="200">
+                    </a>
+                </figure>
+            </div>
+    </main>
+</div>
+
+<footer>
+    &copy; 2024 Olívia Petclub. Todos os direitos reservados.
+    Olívia Petclub LTDA - CNPJ: 00.000.000/0001-10
+</footer>
+
+</body>
+</html>

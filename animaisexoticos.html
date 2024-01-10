@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            box-sizing: border-box;
+            background-color: #edefee;
+        }
+
+        header {
+            background-color: #ec74c8;
+            color: #fff;
+            padding: 8px;
+            text-align: center;
+            width: "#";
+            margin: "#";
+            
+        }
+        header img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse a largura do cabeçalho */
+            height: auto; /* Mantém a proporção da imagem ao redimensionar */
+        }
+        h2 { font-family: cursive ; color: #be13bc
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        nav {
+            width: 20%;
+            background-color: #ca60f0;
+            color: #fff;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+        }
+
+        main {
+            flex: 1;
+            padding: 50px;
+            margin-right: 200;
+            
+        }
+
+        footer {
+            background-color: #ec74c8;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            bottom: 0;
+        }
+
+        .styled-text {
+            font-family: 'Trebuchet Ms', serif;
+            font-size: 18px;
+            color: #050000;
+        }
+
+        .video-container {
+            text-align: center;
+        }
+
+        /* Estilos para melhorar acessibilidade e usabilidade */
+        a {
+            color: #2b08f3;
+            text-decoration: none;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #f507ae;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="aboutabout.png" alt="Logotipo da Olivia Petclub escrito sobre nós">
+</header>
+
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="about.html">Sobre nós</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="Horario.html">Horário</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="agendamento.html">Agendamento</a></li>
+            <li><a href="aniversariopet.html">Aniversário Pet</a></li>
+            <li><a href="animaisexoticos.html">Atendimento de animais exóticos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Animais exóticos:</h2>
+        <p>Não é difícil perceber que ter em casa animais exóticos está se tornando cada vez mais normal, desde répteis à mamíferos, aves, peixes e anfíbios também se enquadram nas categorias de animais silvestres, entretanto, a maior procura é destinada aos<strong> mamíferos e répteis</strong>.</p>
+        <h2>Quais animais exóticos nossa hospedagem recebe?</h2>      
+        <ul>
+            <li>Iguana</li>
+            <li>Chinchila</li>
+            <li>Salamandra</li>
+            <li>Jiboia</li>
+            <li>Roedores</li>
+            <li>Cabras, bodes e ovelhas</li>
+        </ul>  
+            <p>Dispomos de ambiente amplo e seguro!</p>
+            <h2>Documentos necessários para hospedagem:</h2>
+            <ul>
+                <li>Declaração de saúde do animal emitido por veterinário (até 30 dias anterior ao atendimento)</li>
+                <li>Documento de registro junto aos orgãos competentes</li>
+                <li>Declaração de responsabilidade assinada pelo tutor</li>
+                <li>Documentos do tutor</li>
+            </ul> 
+              
+        <div class="video-container">            
+            <figure>
+                    <video controls width="640" height="360">
+                    <source src="exoticovideo.mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                    </video>
+             <figcaption>O vídeo apresenta fotos de diversos animais como ovelha, porco, capivara, coelho, iguanas, cobras e tartarugas.</figcaption>
+            </figure>
+       </div>
+    </main>
+</div>
+
+<footer>
+    &copy; 2024 Olívia Petclub. Todos os direitos reservados.
+    Olívia Petclub LTDA - CNPJ: 00.000.000/0001-10
+</footer>
+
+</body>
+</html>

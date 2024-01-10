@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            box-sizing: border-box;
+            background-color: #edefee;
+        }
+               
+
+        header {
+            background-color: #ec74c8;
+            color: #fff;
+            padding: 8px;
+            text-align: center;
+            width: "#";
+            margin: "#";
+            
+        }
+       
+        header img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse a largura do cabeçalho */
+            height: auto; /* Mantém a proporção da imagem ao redimensionar */
+        }
+        h2 {
+            color: #be13bc; /* Altere para a cor desejada usando um código de cor ou nome da cor */
+        }
+        h4 {
+            color:#be13bc
+        }
+        h3 { font-family: cursive ; color: #be13bc
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        nav {
+            width: 20%;
+            background-color: #ca60f0;
+            color: #fff;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+        }
+
+        main {
+        flex: 1;
+        padding: 50px;
+        margin: 200;
+            }
+                
+        footer {
+            background-color: #ec74c8;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            bottom: 0;
+
+                    }
+        .video-container {
+            text-align: center;
+        }
+
+        /* Estilos para melhorar acessibilidade e usabilidade */
+        a {
+            color: #2b08f3;
+            text-decoration: none;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #f507ae;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+    <img src="header.png" alt="Logotipo do petshop Olívia Petclub"> 
+    </header>   
+
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="about.html">Sobre nós</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="Horario.html">Horário</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="agendamento.html">Agendamento</a></li>
+                <li><a href="aniversariopet.html">Aniversário Pet</a></li>
+                <li><a href="animaisexoticos.html">Atendimento de animais exóticos</a></li>
+             </ul>
+        </nav>
+    
+        <main>
+            <h1>Trato livre e Gentil!</h1>
+            <p>A Olivia PetClub é um espaço de promoção de bem-estar animal e serviços inovadores! Oferecemos banhos com produtos de alta qualidade, específicos para cada tipo de animal. 
+            Contamos com <i>groomers</i> especialistas em raça, daycare, creche e também com um Spa completo com tudo que seu pet merece.
+                Atendemos <strong>animais exóticos</strong> e celebramos o <b>aniversário</b> do seu pet!</p>
+            <h4>Aniversário pet: faça a festa com a gente!</h4>
+            <p>Clique no banner ou conheça <b><a href="servicos.html">nossos serviços</a></b>.       
+            <div class="video-container">            
+                <figure>
+                    <a href="servicos.html">
+                     <img src="banneraniver.jpg" alt="A imagem contém fotos de cachorros comenmorando aniversário." width="400" height="400"></a>
+                </figure>
+        </div>
+    </main>
+    </div>
+
+<footer>
+    &copy; 2024 Olívia Petclub. Todos os direitos reservados.
+    Olívia Petclub LTDA - CNPJ: 00.000.000/0001-10
+</footer>
+</body>
+</html>
+

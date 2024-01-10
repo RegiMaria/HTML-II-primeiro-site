@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            box-sizing: border-box;
+            background-color: #edefee;
+        }
+        header {
+            background-color: #e34bb5;
+            color: #fff;
+            padding: 8px;
+            text-align: center;
+            width: "#";;
+            height: "#";
+            
+        }
+        header img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse a largura do cabeçalho */
+            height: auto; /* Mantém a proporção da imagem ao redimensionar */
+        }
+
+        header {
+            background-color: #ec74c8;
+            color: #fff;
+            padding: 1px;
+            text-align: center;
+        }
+        h2 { font-family: cursive ; color: #be13bc
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        nav {
+            width: 20%;
+            background-color: #ca60f0;
+            color: #fff;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+        }
+
+        main {
+            flex: 1;
+            padding: 50px;
+            margin-right: 200;
+            
+        }
+
+        footer {
+            background-color: #ec74c8;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            bottom: 0;
+        }
+
+        .styled-text {
+            font-family: 'Trebuchet Ms', serif;
+            font-size: 18px;
+            color: #050000;
+        }
+
+        .video-container {
+            text-align: center;
+            
+        }
+
+        /* Estilos para melhorar acessibilidade e usabilidade */
+        a {
+            color: #2b08f3;
+            text-decoration: none;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #f507ae;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="faleconosco.png" alt="Logotipo com foto de um cachorro branco e escrito 'Fale connosco">
+</header>
+
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="about.html">Sobre nós</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="Horario.html">Horário</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="agendamento.html">Agendamento</a></li>
+            <li><a href="aniversariopet.html">Aniversário Pet</a></li>
+            <li><a href="animaisexoticos.html">Atendimento de animais exóticos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Fale conosco:</h2>
+        <p> Tire uma dúvida, faça uma sugestão, enviei uma crítica</p>
+        <p><strong> Envie uma mensagem</strong>
+        <form name="signup" onsubmit="alert('Formulário enviado')">
+            <p><label>Nome:</label> <input type="text"><br></p>
+            <p> <label>Email:</label> <input type="email"><br></p>
+            <p><label>Telefone:</label> <input type="number"><br></p>
+            <p><labe> Assunto:</labe>
+                <select name="role">
+                    <option value="sugestão"> Sugestão</option>
+                    <option value="crítica"> Crítica/ Elogio</option>
+                    <option value="dúvida"> Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+                </p>
+                <label>Mensagem:</label>
+                <p> <textarea name="mensagem"> </textarea></p>
+                <button type="Enviar"> Enviar</button>
+        </form>
+            <h2>Nosso endereço:</h2>
+            <p> Rua n° 25, bairro do Limoeiro</p>
+            <iframe
+            width="450"
+            height="250"
+            style="border:0"
+            loading="lazy"
+            allowfullscreen
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.431023604806!2d-80.19179008488841!3d25.7616849841809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a3f2b26f4d%3A0xf7bf7a3ac53b44e0!2sMiami%2C%20FL%2C%20USA!5e0!3m2!1sen!2sca!4v1643735306619!5m2!1sen!2sca"
+        ></iframe>
+
+
+
+        </main>
+        
+</div>
+
+<footer>
+    &copy; 2024 Olívia Petclub. Todos os direitos reservados.
+    Olívia Petclub LTDA - CNPJ: 00.000.000/0001-10
+</footer>
+
+</body>
+</html>

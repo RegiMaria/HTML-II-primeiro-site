@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            box-sizing: border-box;
+            background-color: #edefee;
+        }
+        header {
+            background-color: #e34bb5;
+            color: #fff;
+            padding: 8px;
+            text-align: center;
+            width: "#";;
+            height: "#";
+            
+        }
+        header img {
+            max-width: 100%; /* Garante que a imagem não ultrapasse a largura do cabeçalho */
+            height: auto; /* Mantém a proporção da imagem ao redimensionar */
+        }
+
+        header {
+            background-color: #ec74c8;
+            color: #fff;
+            padding: 1px;
+            text-align: center;
+        }
+        h2 { font-family: cursive ; color: #be13bc
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        nav {
+            width: 20%;
+            background-color: #ca60f0;
+            color: #fff;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+        }
+
+        main {
+            flex: 1;
+            padding: 50px;
+            margin-right: 200;
+            
+        }
+
+        footer {
+            background-color: #ec74c8;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            bottom: 0;
+        }
+
+        .styled-text {
+            font-family: 'Trebuchet Ms', serif;
+            font-size: 18px;
+            color: #050000;
+        }
+
+        .video-container {
+            text-align: center;
+            
+        }
+
+        /* Estilos para melhorar acessibilidade e usabilidade */
+        a {
+            color: #2b08f3;
+            text-decoration: none;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #f507ae;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="agendamento.png" alt="Logotipo com foto de cachorro e escrito 'Agendamento de serviços">
+</header>
+
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="about.html">Sobre nós</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="#">Horário</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="agendamento.html">Agendamento</a></li>
+            <li><a href="aniversariopet.html">Aniversário Pet</a></li>
+            <li><a href="animaisexoticos.html">Atendimento de animais exóticos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form>
+            <h2>Garanta seu atendimento aqui:</h2>
+            <p><label>Nome do tutor:</label> <input type="text"><br></p>
+            <p> <label>Email:</label> <input type="email"><br></p>
+            <p><label>Telefone:</label> <input type="number"><br></p>
+            <p><label>Nome do pet:</label> <input type="text"><br></p>
+
+            <p><b> Informações do serviço:</b></p>
+            <p>1. Escolha o pacote: </p>
+            <label>
+            <input type="radio" name="pet" value="Pacote 1"> Pacote 1
+            </label><br>
+            <label>   
+            <input type="radio" name="pet" value="Pacote 2"> Pacote 2
+            </label><br>
+            <p>Mais informações sobre os pacotes em <b><a href="servicos.html">SERVIÇOS</a></b>.</p>
+            <p>2. Escolha o número de convidados: </p>
+            <label>
+            <input type="radio" name="pet" value="ate10"> Até 10 convidados
+            </label><br>
+            <label>   
+            <input type="radio" name="pet" value="ate20"> Até 20 convidados
+            </label><br>
+            <p><b> Informações do aniversariante:</b></p>
+
+            <p>3. Sexo: </p>
+            <label>
+            <input type="radio" name="pet" value="macho">Macho
+            </label><br>
+            <label>   
+            <input type="radio" name="pet" value="femea">Fêmea
+            </label><br>
+
+            <p>3. Idade: </p>
+            <label>
+            <input type="radio" name="pet" value="filhote">Filhote
+            </label><br>
+            <label>   
+            <input type="radio" name="pet" value="aduto">Adulto
+            </label><br>
+            <label>   
+                <input type="radio" name="pet" value="idoso">Idoso
+                </label><br>
+    
+            <p><b> Para personalização do material:</b></p>
+            <label>Informe nome, a idade do pet,restrições alimentares e outras características:</label>
+                <p> <textarea name="mensagem"> </textarea></p>
+            <label>   
+                <input type="radio" name="especie" value="Exotico"> Exótico
+            </label>
+            <label>Informe espécie, nome, idade, peso e outras informações(réptil com/sem patas):</label>
+            <p> <textarea name="mensagem"> </textarea></p><br>
+            <p><b>Vamos marcar a data:</b></p>
+            
+            <p>5. Melhor dia: </p>
+            <select name="melhorDia">
+                <option value="segunda">Segunda</option>
+                <option value="terca">Terça</option>
+                <option value="quarta">Quarta</option>
+                <option value="quinta">Quinta</option>
+                <option value="sexta">Sexta</option>
+                <option value="sabado">Sábado</option>
+            </select>
+
+            <p>6. Melhor horário: </p>
+            <select name="melhorHorario">
+                    <option value="segunda">9:00</option>
+                    <option value="terca">11:00</option>
+                    <option value="quarta">14:00</option>
+                    <option value="quinta">15:00</option>
+            </select><br>  
+            <br>     
+                    <button type="submit"> Enviar agendamento </button>
+            <h3> <font color="red"> Atenção: </font> </h3>
+            <p>Consulte o regulamento para animais exóticos <strong><a href="animaisexoticos.html">AQUI</a></strong>.</p>
+            <p> Saiba mais sobre nossos serviços de hospedagem, daycare e creche <strong><a href="servicos.html"> AQUI!</a></strong></p>
+            <p> Em caso de dúvidas<strong><a href="contato.html"> Fale conosco!</a></strong></p>        
+                    
+        </form>      
+    </div>
+    </main>
+</div>
+
+<footer>
+    &copy; 2024 Olívia Petclub. Todos os direitos reservados.
+    Olívia Petclub LTDA - CNPJ: 00.000.000/0001-10
+</footer>
+
+</body>
+</html>
